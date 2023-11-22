@@ -280,6 +280,7 @@ object LocalEmailsDataProvider {
             body = """
             You've been selected as a winner in our latest raffle! To claim your prize, click on the link.
             """.trimIndent(),
+            isImportant = true,
             createdAt = "3 hours ago",
             mailbox = MailboxType.SPAM,
             threads = threads.shuffled(),
